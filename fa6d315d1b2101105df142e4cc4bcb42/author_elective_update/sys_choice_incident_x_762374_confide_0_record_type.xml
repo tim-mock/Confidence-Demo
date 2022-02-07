@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_762374_confide_0_record_type" table="incident" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_762374_confide_0_record_type</element>
+            <name>incident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-07 18:13:35</sys_created_on>
+            <sys_id>1f11ae552fa10110d45859a72799b6fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_762374_confide_0_record_type</sys_name>
+            <sys_package display_value="Confidence demo" source="x_762374_confide_0">fa6d315d1b2101105df142e4cc4bcb42</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Confidence demo">fa6d315d1b2101105df142e4cc4bcb42</sys_scope>
+            <sys_update_name>sys_choice_incident_x_762374_confide_0_record_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-07 18:13:35</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_762374_confide_0_record_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Equipment Order</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-07 18:13:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1821e6952fa10110d45859a72799b67c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-07 18:13:51</sys_updated_on>
+            <value>new_equipment_order</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_762374_confide_0_record_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Password Reset</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-07 18:13:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d01e2d52fa10110d45859a72799b649</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-07 18:13:34</sys_updated_on>
+            <value>password_reset</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_762374_confide_0_record_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Remote Access Troubleshooting</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-07 18:14:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>503126d52fa10110d45859a72799b6cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-07 18:14:05</sys_updated_on>
+            <value>remote_access_troubleshooting</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
