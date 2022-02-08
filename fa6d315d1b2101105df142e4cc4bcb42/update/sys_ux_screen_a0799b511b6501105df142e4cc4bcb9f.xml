@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Confidence demo Config">23458b910d25011058b00a64d3191a38</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="opened modal">2479db591b2501105df142e4cc4bcb9c</macroponent>
+        <macroponent_config/>
+        <name>opened modal</name>
+        <order>100</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Home">2f458b913a25011060fca05acd97a138</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-07 22:19:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0799b511b6501105df142e4cc4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>opened modal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Confidence demo" source="x_762374_confide_0">fa6d315d1b2101105df142e4cc4bcb42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Confidence demo">fa6d315d1b2101105df142e4cc4bcb42</sys_scope>
+        <sys_update_name>sys_ux_screen_a0799b511b6501105df142e4cc4bcb9f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-07 22:19:42</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=a0799b511b6501105df142e4cc4bcb9f"/>
+</record_update>
