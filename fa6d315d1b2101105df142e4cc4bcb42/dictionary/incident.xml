@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="email_client=true,hasWorkflow=true,live_feed=true,all_tables.query_hints=true" audit="true" extends="task" label="Incident" max_length="40" name="incident" sizeclass="67" text_index="true" type="collection">
-        <element choice="1" label="Record Type" max_length="50" name="x_762374_confide_0_record_type" read_only="true" type="choice">
+        <element choice="1" label="Record Type" max_length="50" name="x_762374_confide_0_record_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="New Equipment Order" value="new_equipment_order"/>
                 <element inactive_on_update="false" label="Password Reset" value="password_reset"/>
