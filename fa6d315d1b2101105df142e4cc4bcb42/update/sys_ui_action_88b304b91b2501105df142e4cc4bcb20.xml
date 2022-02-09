@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>show_confidence</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+	var recordType = g_form.getValue("x_762374_confide_0_record_type")
+	
+	if (recordType === "password_reset") {
+		g_modal.showFrame({
+			url: "http://localhost:3000/location/BUSFYVWC/task/99415",
+			title: "Confidence",
+			size: "lg",
+			height: 500
+		});
+	} else if (recordType === "new_equipment_order") {
+		g_modal.showFrame({
+			url: "http://localhost:3000/location/BUSFYVWC/task/99420",
+			title: "Confidence",
+			size: "lg",
+			height: 500
+		});
+	} else if (recordType === "remote_access_troubleshooting") {
+		g_modal.showFrame({
+			url: "http://localhost:3000/location/BUSFYVWC/task/99421",
+			title: "Confidence",
+			size: "lg",
+			height: 500
+		});
+	} else {
+		alert("No Record Type selected.");
+	}
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>true</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint>Show task list in Confidence</hint>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Confidence</name>
+        <onclick/>
+        <order>100</order>
+        <script/>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-08 20:02:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>88b304b91b2501105df142e4cc4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Confidence</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Confidence demo" source="x_762374_confide_0">fa6d315d1b2101105df142e4cc4bcb42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Confidence demo">fa6d315d1b2101105df142e4cc4bcb42</sys_scope>
+        <sys_update_name>sys_ui_action_88b304b91b2501105df142e4cc4bcb20</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-08 20:02:44</sys_updated_on>
+        <table>incident</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>
